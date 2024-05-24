@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+     padding: 0px;
+}
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    width: 180px;
+    height: 400px;
+    position: fixed;
+    z-index: 1;
+    background: #fb401f;
+    overflow-x: hidden;
+    padding: 20px 20px 15px 10px;
+  }
+  .nav-texts{
+    padding: 6px 8px 6px 16px;
+    color: #ffffff;
+    display: block;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #44505b;
+  }
+  
+  .main {
+    margin-left: 240px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 40px 10px;
+  }
+  .orange-text{
+    color: orangered
+  }
+  .orange-line{
+    margin-top: 10px;
+    border: 2px solid orangered;
+    width: 50px;
+    height: 10px;
+   background-color: orangered;
+    border-radius: 6px;;
+  }
+  
