@@ -52,7 +52,21 @@ body {
     display: flex;
     padding-top: 30px;
     justify-content: space-around;
-  }
-  .Scolumn1{
-    padding-bottom: 40px;
-  }
+}
+/* .Scolumn1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Scolumn2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+.service{
+    margin-left: 240px; 
+    font-size: 28px; 
+    padding: 40px 10px;
+  
+}
+.service-text{
+    font-size: 20px;
+}
