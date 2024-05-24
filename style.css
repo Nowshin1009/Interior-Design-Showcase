@@ -48,4 +48,11 @@ body {
    background-color: orangered;
     border-radius: 6px;;
   }
-  
+  .showcase-images{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+  }
+  .Scolumn1{
+    padding-bottom: 40px;
+  }
