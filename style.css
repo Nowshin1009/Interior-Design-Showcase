@@ -115,6 +115,26 @@ body {
   padding: 30px;
  
 }
+.pricing {
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+  gap: 10px;
+  /* margin: 10px 0; */
+}
+
+.price-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+.price-wrapper button {
+  background-color: #e5dfdf;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
 .offer{
   background-color: #e5dfdf;
   padding: 15px;
