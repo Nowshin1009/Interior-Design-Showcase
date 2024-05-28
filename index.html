@@ -33,14 +33,14 @@
        
     <section class="showcase-images">
         <div class="Scolumn1">
-            <img src="./images/showcase-01.jpg" alt="A kitchen interior image" width="600" height="500">
-            <img src="/images/showcase-03.jpg" alt="A Drawing room interior image" width="600" height="300"> 
-            <img src="./images/showcase-05.jpg" alt=" A dining room interior image" width="600" height="300">
+            <img src="./images/showcase-01.jpg" alt="A kitchen interior image" width="550" height="500">
+            <img src="/images/showcase-03.jpg" alt="A Drawing room interior image" width="550" height="300"> 
+            <img src="./images/showcase-05.jpg" alt=" A dining room interior image" width="550" height="300">
         </div>
         <div class="Scolumn2">
-            <img src="./images/showcase-02.jpg" alt="A kitchen interior image" width="600" height="500">
-            <img src="/images/showcase-04.jpg" alt="A Drawing room interior image" width="600" height="300">
-            <img src="./images/showcase-06.jpg" alt=" A dining room interior image" width="600" height="300">
+            <img src="./images/showcase-02.jpg" alt="A kitchen interior image" width="550" height="500">
+            <img src="/images/showcase-04.jpg" alt="A Drawing room interior image" width="550" height="300">
+            <img src="./images/showcase-06.jpg" alt=" A dining room interior image" width="550" height="300">
         </div>
     </section>
     </div> 
@@ -110,13 +110,98 @@
     </div>
 </section>
 
+<!-- Starting of the Package part from here : -->
+<section class="Package">
+    <h2 class="orange-text">Packages.</h2> 
+    <br>
+    <hr class="orange-line">
+    <br>
+
+    <div class="text">
+        <p >Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        </p><br><br>
+        <div class="packageCard">
+        <div class="package-container1">
+            <h3 class="Basic">Basic</h3>
+            <div class="offer">Floorplanning</div><hr>
+            <div class="offer">10 hours support</div><hr>
+            <div class="offer">Photography</div><hr>
+            <div class="offer">20% furniture discount</div><hr>
+            <div class="offer">Good deals</div><hr>
+            
+
+            <div class="offer">
+                <button class="minus">-</button>
+                <h2>$ <span class="price" data-price="199">199</span> +</h2>
+                <button class="plus">+</button>
+                <span class="position text rooms">1 room</span>
+            </div><hr>
+            <div class="offer">
+                <button class="sign-up">Sign up</button>
+            </div><hr>
+            <div class="offer">
+                <p class="position text thank-you-message" style="display:none;">Thank you for choosing <span class="selected-rooms">1</span> room</p>
+            </div>
+
+        </div>
+
+        <div class="package-container2">
+            <h3 class="Pro">Pro</h3>
+            <div class="offer">Floorplanning</div><hr>
+            <div class="offer">50 hours support</div><hr>
+            <div class="offer">Photography</div><hr>
+            <div class="offer">50% furniture discount</div><hr>
+            <div class="offer">Great deals</div><hr>
+
+            <div class="offer">
+                <button class="minus">-</button>
+                <h2>$ <span class="price" data-price="249">249</span> +</h2>
+                <button class="plus">+</button>
+                <span class="position text rooms">1 room</span>
+            </div><hr>
+            <div class="offer">
+                <button class="sign-up2">Sign up</button>
+            </div><hr>
+            <div class="offer">
+                <p class="position text thank-you-message" style="display:none;">Thank you for choosing <span class="selected-rooms">1</span> room</p>
+            </div> 
+
+
+        </div>
+    </div>
+</section>
 </main>
 
 <footer>
 <!-- Starting of the Contact part from here : -->
+<section class="Contact">
+    <h2 class="orange-text">Contact.</h2> 
+    <br>
+    <hr class="orange-line">
+    <br>
 
+    <div class="text">
+        <p >Do you want us to style your home? Fill out the form and fill me in with the deatils :) We love meeting new peoples!
+        </p><br>
+       </div>
+       <div class="contact-form">
+        <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
 
+        <label for="Email">Email</label>
+        <input type="email" id="email" name="email" >
+
+        <label for="message">Message</label>
+        <input type="text" id="message" name="message">
+
+        <input type="submit" value="Send message">
+  </form>
+        <p id="error-message" class="error-message"></p>
+       </div>
+</section> 
 </footer>
 </div>
+<script src="script.js"></script>
 </body>
 </html> 
