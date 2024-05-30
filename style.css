@@ -49,12 +49,15 @@ body {
    background-color: orangered;
     border-radius: 6px;;
   }
-  .showcase-images{
-    display: flex;
-    width: 100%;
-    padding-top: 30px;
-    justify-content: space-around;
-}
+
+
+.showcase-images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 equal-width columns */
+  gap: 20px 5px;
+  width: 100%;
+  padding-top: 30px;
+  }
 
 .service{
     margin-left: 300px; 
@@ -72,6 +75,7 @@ body {
 }
 .text{
     font-size: 20px;
+    /* text-align: justify; */
 }
 .card {
     background-color: rgb(248, 242, 242);
