@@ -34,4 +34,4 @@ The interior design website is a simple, single-page application designed to sho
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+  git clone https://github.com/Nowshin1009/Interior-Design-Showcase
