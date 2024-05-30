@@ -1,3 +1,4 @@
+// for the package part ----->>>>
 document.querySelectorAll('.packageCard .package-container1, .packageCard .package-container2').forEach(packageElement => {
     const minusButton = packageElement.querySelector('.minus');
     const plusButton = packageElement.querySelector('.plus');
@@ -36,6 +37,8 @@ document.querySelectorAll('.packageCard .package-container1, .packageCard .packa
 
 
 //----------------------------------------------
+
+// For the contact part ------>
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     let isValid = true;
